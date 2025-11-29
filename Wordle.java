@@ -155,7 +155,7 @@ public class Wordle {
 
         if (!won) {
             System.out.println("Sorry, you did not guess the word.");
-            System.out.println("The secret ward was: " + secret);
+            System.out.println("The secret word was: " + secret);
         }
 
         inp.close();
